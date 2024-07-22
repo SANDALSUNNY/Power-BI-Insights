@@ -1,24 +1,26 @@
-# Power-BI-Insights
-A collection of Power BI reports and dashboards showcasing key insights and analytics for various business scenarios.
 
-**Sals Insights**
+Sals Insights: Sales Data Analysis for Atliq
+Overview:
 
-This project will be explained from the perspective of sales data at Atliq, a hardware company, using data sourced from the Code Basics YouTube channel. It includes a simple visual display of the most important information that decision-makers need to help them achieve their objectives.
+Sals Insights is a comprehensive dashboard project designed to provide actionable insights into sales data for Atliq, a hardware company. The project leverages data from the Code Basics YouTube channel to create a visually appealing and informative KPI dashboard. This dashboard is tailored to meet the needs of decision-makers by offering a clear and concise display of critical sales metrics.
 
-KPI dashboard defines the key performance indicators.
+Key Features:
 
-1) Revenue by Zone
-2) Sales quantity by Zone 
-3) Revenue Trend
-4) Revenue by Market
-5) Sales quantity by Market 
-6) Top 5 Customers by Revenue 
-7) Top 5 Products by Revenue 
-8) Last 5 year Revenue (Overall Sales)
-9) Last 5 year Revenue by Zone 
-10) Identify less revenue getting from customers 
-11) Identify top revenue getting from customers (Increase products which have more price)
-12) Identify the market whose sales are very very less (Stop sales in those areas to avoid transport charges and sales employees, this amount can be invested in other areas)
-13) Display the return products quantity from Zone & Customer 
-14) Identify which products increase revenue from Zone,market,customer (Main objective is to increase sales growth)
-15) Identify on which month sales growth is increasing by checking with previous years (So that company can be ready with quantity to increase the product distributions)
+Revenue by Zone: Visualizes the revenue distribution across different geographical zones.
+Sales Quantity by Zone: Displays the quantity of sales across various zones.
+Revenue Trend: Tracks and shows revenue trends over time to identify growth patterns.
+Revenue by Market: Breaks down revenue by different market segments.
+Sales Quantity by Market: Shows the sales quantity segmented by market.
+Top 5 Customers by Revenue: Highlights the top five customers based on revenue contribution.
+Top 5 Products by Revenue: Lists the top five products generating the highest revenue.
+Last 5 Year Revenue (Overall Sales): Provides a historical overview of overall sales revenue over the past five years.
+Last 5 Year Revenue by Zone: Analyzes revenue trends by zone over the past five years.
+Identify Less Revenue Generating Customers: Highlights customers contributing less revenue for targeted strategies.
+Identify High Revenue Generating Customers: Pinpoints top revenue-generating customers to optimize product pricing strategies.
+Identify Low Sales Markets: Detects markets with very low sales to potentially reallocate resources and investment.
+Return Products Quantity by Zone & Customer: Tracks the quantity of returned products by zone and customer.
+Identify Revenue Growth Products: Determines which products are driving revenue growth by zone, market, and customer.
+Monthly Sales Growth Analysis: Analyzes monthly sales growth compared to previous years to optimize inventory and distribution strategies.
+Objective:
+
+The primary objective of the Sals Insights dashboard is to enhance sales growth by providing actionable insights and identifying areas for improvement. It helps in optimizing product distribution, managing customer relationships, and making data-driven decisions to increase overall revenue.
