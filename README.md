@@ -25,3 +25,12 @@ Monthly Sales Growth Analysis: Analyzes monthly sales growth compared to previou
 Objective:
 
 The primary objective of the Sals Insights dashboard is to enhance sales growth by providing actionable insights and identifying areas for improvement. It helps in optimizing product distribution, managing customer relationships, and making data-driven decisions to increase overall revenue.
+
+
+Profit Margin % = DIVIDE([Total Profit Margin],[Revenue],0)
+Profit Margin Contribution % = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
+Revenue = SUM('Sales transactions'[norm_sales_amount])
+Revenue Contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
+Revenue LY = CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))
+Sales Qty = SUM('sales transactions'[sales_qty])
+Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
