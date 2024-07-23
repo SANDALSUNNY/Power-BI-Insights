@@ -21,6 +21,7 @@ Identify Low Sales Markets: Detects markets with very low sales to potentially r
 Return Products Quantity by Zone & Customer: Tracks the quantity of returned products by zone and customer.
 Identify Revenue Growth Products: Determines which products are driving revenue growth by zone, market, and customer.
 Monthly Sales Growth Analysis: Analyzes monthly sales growth compared to previous years to optimize inventory and distribution strategies.
+
 Objective:
 
 The primary objective of the Sals Insights dashboard is to enhance sales growth by providing actionable insights and identifying areas for improvement. It helps in optimizing product distribution, managing customer relationships, and making data-driven decisions to increase overall revenue.
