@@ -1,36 +1,81 @@
+📊 Atliq Sales Insights: Sales Data Analysis Dashboard
+🛠️ Overview
+A Power BI dashboard project analyzing Atliq’s sales data (using dataset from Codebasics YouTube channel).
+Designed to provide clear, actionable insights for decision-makers in a visually appealing and structured manner.
 
-Sals Insights: Sales Data Analysis for Atliq
-Overview:
+🎯 Objective
+To enhance sales growth by:
 
-Sals Insights is a comprehensive dashboard project designed to provide actionable insights into sales data for Atliq, a hardware company. The project leverages data from the Code Basics YouTube channel to create a visually appealing and informative KPI dashboard. This dashboard is tailored to meet the needs of decision-makers by offering a clear and concise display of critical sales metrics.
+Identifying high and low revenue customers & markets.
 
-Key Features:
+Analyzing sales trends over time.
 
-Revenue by Zone: Visualizes the revenue distribution across different geographical zones.
-Sales Quantity by Zone: Displays the quantity of sales across various zones.
-Revenue Trend: Tracks and shows revenue trends over time to identify growth patterns.
-Revenue by Market: Breaks down revenue by different market segments.
-Sales Quantity by Market: Shows the sales quantity segmented by market.
-Top 5 Customers by Revenue: Highlights the top five customers based on revenue contribution.
-Top 5 Products by Revenue: Lists the top five products generating the highest revenue.
-Last 5 Year Revenue (Overall Sales): Provides a historical overview of overall sales revenue over the past five years.
-Last 5 Year Revenue by Zone: Analyzes revenue trends by zone over the past five years.
-Identify Less Revenue Generating Customers: Highlights customers contributing less revenue for targeted strategies.
-Identify High Revenue Generating Customers: Pinpoints top revenue-generating customers to optimize product pricing strategies.
-Identify Low Sales Markets: Detects markets with very low sales to potentially reallocate resources and investment.
-Return Products Quantity by Zone & Customer: Tracks the quantity of returned products by zone and customer.
-Identify Revenue Growth Products: Determines which products are driving revenue growth by zone, market, and customer.
-Monthly Sales Growth Analysis: Analyzes monthly sales growth compared to previous years to optimize inventory and distribution strategies.
+Supporting data-driven decisions for product distribution, pricing, and customer management.
 
-Objective:
+🚀 Key Features
+✅ Revenue Analysis
 
-The primary objective of the Sals Insights dashboard is to enhance sales growth by providing actionable insights and identifying areas for improvement. It helps in optimizing product distribution, managing customer relationships, and making data-driven decisions to increase overall revenue.
+Revenue by Zone
 
+Revenue by Market
 
-Profit Margin % = DIVIDE([Total Profit Margin],[Revenue],0)
-Profit Margin Contribution % = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
+Revenue Trend over time
+
+Last 5 Years Revenue (Overall and by Zone)
+
+Revenue Growth Products (by Zone, Market, Customer)
+
+✅ Sales Quantity Analysis
+
+Sales Quantity by Zone
+
+Sales Quantity by Market
+
+✅ Customer Insights
+
+Top 5 Customers by Revenue
+
+Identify High Revenue Generating Customers
+
+Identify Less Revenue Generating Customers
+
+✅ Product Insights
+
+Top 5 Products by Revenue
+
+Return Product Quantity by Zone & Customer
+
+✅ Market Insights
+
+Identify Low Sales Markets
+
+✅ Sales Growth Analysis
+
+Monthly Sales Growth vs Previous Years
+
+🧮 Key DAX Measures Used
 Revenue = SUM('Sales transactions'[norm_sales_amount])
-Revenue Contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
-Revenue LY = CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))
+
+Revenue LY = CALCULATE([Revenue], SAMEPERIODLASTYEAR('sales date'[date]))
+
+Revenue Contribution % = DIVIDE([Revenue], CALCULATE([Revenue], ALL('sales products'), ALL('sales customers'), ALL('sales markets')))
+
 Sales Qty = SUM('sales transactions'[sales_qty])
+
 Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
+
+Profit Margin % = DIVIDE([Total Profit Margin], [Revenue], 0)
+
+Profit Margin Contribution % = DIVIDE([Total Profit Margin], CALCULATE([Total Profit Margin], ALL('sales products'), ALL('sales customers'), ALL('sales markets')))
+
+💡 Insights Enabled
+✅ Optimize inventory & distribution using monthly growth trends.
+✅ Target low-sales markets for improvement.
+✅ Leverage top customers and products for focused sales strategies.
+✅ Improve pricing strategies using customer contribution analysis.
+
+📂 Tools Used
+Power BI (Data Modeling, DAX, Dashboard Building)
+
+Sample dataset from Codebasics YouTube Sales Analysis Project
+
