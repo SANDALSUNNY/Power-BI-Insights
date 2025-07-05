@@ -2,8 +2,8 @@
 
 ⚠️ Disclaimer:
 This project was built for learning purposes using datasets and guidance from the Codebasics YouTube channel. All credit for the dataset and learning framework goes to the respective creators.
-🛠️ Overview
 
+🛠️ Overview
 A Power BI dashboard project analyzing Atliq’s sales data (using dataset from Codebasics YouTube channel).
 Designed to provide clear, actionable insights for decision-makers in a visually appealing and structured manner.
 
